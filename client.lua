@@ -135,7 +135,7 @@ CreateThread(function()
     -- ====================================================================
     -- =----------------------- [DLC: After Hours] -----------------------=
     -- ====================================================================
-    AfterHoursNightclubs.LoadDefault() -- -1604.664, -3012.583, -78.000
+    AfterHoursNightclubs.LoadDefault() -- -1604.664, -3012.583, -78.000  ---GalaxyClub
 
     -- ====================================================================
     -- =------------------- [DLC: Diamond Casino Resort] -----------------=
@@ -149,7 +149,7 @@ CreateThread(function()
     -- =-------------------- [DLC: Cayo Perico Heist] --------------------=
     -- ====================================================================
     if GetGameBuildNumber() >= 2189 then
-        CayoPericoNightclub.LoadDefault() -- 1550.0, 250.0, -50.0
+        CayoPericoNightclub.LoadDefault() -- 1550.0, 250.0, -50.0 nice club
         CayoPericoSubmarine.LoadDefault() -- 1560.0, 400.0, -50.0
     end
 
@@ -159,7 +159,7 @@ CreateThread(function()
     if GetGameBuildNumber() >= 2372 then
         TunerGarage.LoadDefault() -- -1350.0, 160.0, -100.0
         TunerMethLab.LoadDefault() -- 981.9999, -143.0, -50.0
-        TunerMeetup.LoadDefault() -- -2000.0, 1113.211, -25.36243
+        TunerMeetup.LoadDefault() -- -2000.0, 1113.211, -25.36243   -- Rennstrecke
     end
 
     -- ====================================================================

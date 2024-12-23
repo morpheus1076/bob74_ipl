@@ -7,6 +7,11 @@ version '2.3.3'
 
 lua54 "yes"
 
+files
+	{
+		"stream/int3232302352.gfx"
+  	}
+
 client_scripts {
     "lib/common.lua"
     , "lib/observers/interiorIdObserver.lua"
@@ -110,6 +115,7 @@ client_scripts {
     , "dlc_cayoperico/base.lua"
     , "dlc_cayoperico/nightclub.lua"
     , "dlc_cayoperico/submarine.lua"
+    , "dlc_cayoperico/cayo_perico.lua"
 
     -- DLC Tuners (Requires forced build 2372 or higher)
     , "dlc_tuner/garage.lua"
