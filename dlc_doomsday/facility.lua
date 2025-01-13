@@ -8,7 +8,14 @@ DoomsdayFacility = {
 
     Ipl = {
         Interior = {
-            ipl = "xm_x17dlc_int_placement_interior_33_x17dlc_int_02_milo_",
+            ipl = {
+                "xm_x17dlc_int_01",
+                "xm_x17dlc_int_silo_01",
+                "xm_x17dlc_int_silo_02",
+                "xm_x17dlc_int_placement_interior_33_x17dlc_int_02_milo_",
+                "xm_x17dlc_int_placement_interior_34_x17dlc_int_lab_milo_",
+                "xm_x17dlc_int_placement_interior_35_x17dlc_int_tun_entry_milo_"
+            },
 
             Load = function(color)
                 EnableIpl(DoomsdayFacility.Ipl.Interior.ipl, true)
@@ -20,6 +27,8 @@ DoomsdayFacility = {
         },
         Exterior = {
             ipl = {
+                --"xm_x17dlc_int_silo_01",
+                --"xm_x17dlc_int_silo_02",
                 "xm_hatch_01_cutscene", -- 1286.924 2846.06 49.39426
                 "xm_hatch_02_cutscene", -- 18.633 2610.834 86.0
                 "xm_hatch_03_cutscene", -- 2768.574 3919.924 45.82
@@ -402,7 +411,7 @@ DoomsdayFacility = {
         DoomsdayFacility.PrivacyGlass.Bedroom.Control.Enable(true)
         DoomsdayFacility.PrivacyGlass.Lounge.Control.Enable(true)
 
-        DoomsdayFacility.Details.Enable(DoomsdayFacility.Details.crewEmblem, false)
+        DoomsdayFacility.Details.Enable(DoomsdayFacility.Details.crewEmblem, true)
 
         DoomsdayFacility.Details.Enable(DoomsdayFacility.Details.AvengerParts, true)
 
